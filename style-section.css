@@ -1,0 +1,127 @@
+/* section 1 */
+.section1{
+    position: relative;
+    margin-top: 290px;
+    height: 530px;
+}
+.section1>img{
+    position: absolute;
+    left: 0px;
+}
+.section1>p:nth-child(2){
+    width: 700px;
+    position: absolute;
+    top: 125px;
+    left: 230px;
+    font-size: 35px;
+    letter-spacing: 11px;
+    padding: 10px 0px 30px 0px;
+    font-weight: 800;
+    padding-bottom: 0px;
+    color: white;
+}
+.section1>p:nth-child(3){
+    color: white;
+    position: absolute;
+    width: 300px;
+    left: 300px;
+    top: 180px;
+    font-size: 20px;
+    padding-left: 180px;
+    text-align: right;
+}
+.section1>p:nth-child(4){
+    position: absolute;
+    font-size: 12px;
+    top:80px;
+    left: 520px;
+    width: 250px;
+    padding: 55px 55px 30px 300px;
+    border: 2px solid var(--theme);
+    color: var(--theme);
+    line-height: 25px;
+}
+.section1>p:nth-child(4)::after{
+    content: '';
+    position: absolute;
+    top: 234px;
+    width: 1px;
+    height: 50px;
+    border-left: 50px solid white;
+    border-right: 50px solid white;;
+    background-color: var(--theme);
+}
+.section1>p:nth-child(4)::before{
+    content: '';
+    width: 4px;
+    height: 4px;
+    border-right: 2px solid var(--theme);
+    border-top: 2px solid var(--theme);
+    position: absolute;
+    transform: rotate(135deg);
+    bottom: -49px;
+    right: 208px;
+    z-index: 1;
+}
+/* section 2 */
+.section2{
+    position: relative;
+    background-color: #dedede;
+    height: 550px;
+    z-index: -1;
+}
+.section2>img{
+    position: absolute;
+    top: 90px;
+    width: 800px;
+    z-index: 1;
+    left: 480px;
+}
+.section2>p:nth-child(2){
+    position: absolute;
+    font-size: 35px;
+    letter-spacing: 11px;
+    font-weight: 800;
+    color: #aeaeae;
+    top: 100px;
+    left: 165px;
+    z-index: 0;
+}
+.section2>p:nth-child(3){
+    position: absolute;
+    top: 190px;
+    left: 540px;
+    font-size: 35px;
+    letter-spacing: 11px;
+    padding: 10px 0px 30px 0px;
+    font-weight: 800;
+    padding-bottom: 0px;
+    color: white;
+    z-index: 2;
+}
+.section2>p:nth-child(4){
+    color: white;
+    position: absolute;
+    left: 620px;
+    top: 250px;
+    font-size: 20px;
+    z-index: 2;
+}
+.section2>div{
+    position: absolute;
+    border: 2.5px solid var(--theme);
+    width: 550px;
+    top:130px;
+    left: 150px;
+    z-index: 1;
+}
+.section2>div>p{
+    width: 270px;
+    background-color: #dedede;
+    padding: 40px 0px 30px 40px;
+    font-size: 12px;
+    color: #aeaeae;
+    line-height: 25px;
+}
+
+
